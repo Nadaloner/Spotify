@@ -1,0 +1,24 @@
+:root{
+    background-color: black;
+}
+
+.upper{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.top{
+    background-color: #333333;
+    border-radius: 10px;
+    display: flex;  
+    flex-direction: column;  
+}
+
+.top > img:first-child{
+    width: 100px;
+}
+
+.top > img:nth-child(2){
+    width: 50px;
+}
+
