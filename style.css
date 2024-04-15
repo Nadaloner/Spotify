@@ -4,7 +4,7 @@
 
 .upper{
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 520px 1fr;
 }
 
 .top{
@@ -12,13 +12,23 @@
     border-radius: 10px;
     display: flex;  
     flex-direction: column;  
+    padding-left: 5%;
 }
 
 .top > img:first-child{
     width: 100px;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 
 .top > img:nth-child(2){
-    width: 50px;
+    width: 38px;
+    margin-bottom: 15px;
+}
+
+.top > img:last-child{
+    width: 38px;
+    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
