@@ -5,7 +5,7 @@
 
 .upper{
     display: grid;
-    grid-template-columns: 520px 1fr;
+    grid-template-columns: 360px 1fr;
 }
 
 .top{
@@ -18,27 +18,27 @@
 }
 
 .top > div:first-child{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 20px;
 }
 
 .top > div:nth-child(2){
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .top > div:nth-child(3){
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .top > div:first-child > img{
-    width: 115px;
+    width: 80px;
 }
 
 .casetta{
     display: flex;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
-    font-size:15px;
+    font-size:12px;
     color: white;
 }
 
@@ -46,16 +46,16 @@
     display: flex;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
-    font-size:15px;
+    font-size:12px;
     color: white;
 }
 
 .casetta > img{
-    width: 42px;
+    width: 30px;
 }
 
 .cerca > img{
-    width: 42px;
+    width: 30px;
 }
 
 .libreria{
@@ -66,6 +66,7 @@
     margin-top: 10px;
     padding-left: 5%;
     padding-bottom: 15px;
+    padding-right: 10px;
 }
 .libreria > h2{
     margin-top: 10px;
@@ -78,7 +79,7 @@
 }
 
 .add > img{
-    width: 30px;
+    width: 22px;
     padding-right: 20px;
 }
 
@@ -88,11 +89,11 @@
 }
 
 .tual > img{
-    width: 42px;
+    width: 30px;
 }
 
 .tual > h2{
-    font-size: 22px;
+    font-size: 17px;
     color: white;
 }
 
@@ -103,11 +104,11 @@
     grid-template-columns: 1fr;
     border-radius: 10px;
     width: 148%;
-    padding-left: px;
+    margin-right: -10px;
 }
 
 .primogri > h2{
-    font-size: 20px;
+    font-size: 15px;
     padding-left: 10px;
     color: white;
     margin-bottom: 2px;
@@ -126,8 +127,8 @@
     border-radius: 20px; 
     width: 150px;
     border: 2px solid white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
     font-weight: bold;
     padding: 10px 20px;
     cursor: pointer;
@@ -137,6 +138,7 @@
 .create-playlist-btn:hover {
     background-color: #1DB954;
     color: white; 
+    transform: scale(1.05);
 }
 
 .pulsante{
@@ -151,5 +153,16 @@
 
 #bulsant{
     width: 200px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    margin-top: -2%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
