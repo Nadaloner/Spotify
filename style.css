@@ -169,7 +169,7 @@
 
 .links > h4{
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -275,5 +275,48 @@ h3 a:hover{
 
 .iscriviti:hover{
     transform: scale(1.1);
+}
+
+.right{
+    padding-left: 10px;
+}
+
+.lineaalta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#222222;
+    border-radius: 10px;
+}
+
+.freccie{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+.rotonero{
+    background-color: black;
+    border-radius: 100%;
+    width: 27px;
+}
+
+.rotonero > img {
+    width: 17px;
+    padding-left: 7px;
+    padding-top: 2px;
+}
+
+.pulsantitop{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 550px;
+}
+
+.Isciviti{
+
 }
 
